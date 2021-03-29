@@ -34,3 +34,5 @@ def url_redirect(id):
     else:
         flash("Invalid URL")
         return redirect(url_for("index"))
+
+app.run(host="0.0.0.0", port=8080)
